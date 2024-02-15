@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 class BankAccount{
-    int accountNum;
-    int balance;
-    ArrayList<Transaction> temp = new ArrayList<>();
-    int count=0;
+   private int accountNum;
+   private int balance;
+   private ArrayList<Transaction> temp = new ArrayList<>();
+   private int count=0;
     
     public BankAccount(int accountNum, int balance) {
         this.accountNum = accountNum;
